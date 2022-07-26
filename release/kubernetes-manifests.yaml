@@ -439,7 +439,7 @@ spec:
         - containerPort: 7070
         env:
         - name: REDIS_ADDR
-          value: "redis-cart:6379"
+          value: "3.36.101.129:6379"
         resources:
           requests:
             cpu: 200m
